@@ -2,6 +2,11 @@
 # GPS Autonomous Navigation System
 
 
+## Description
+
+That sounds like an exciting and challenging project! Building a functional autonomous car from scratch requires a diverse set of skills, including electrical engineering and coding. Before starting, develop a detailed plan that includes a list of necessary components, their specifications, and where to source them.
+
+
 ## Components
 
 * NEO-M8 gps module
@@ -11,14 +16,6 @@
 * Motor driver
 * Battery
 * Microcontroller.
-
-
-
-
-
-## Description
-
-That sounds like an exciting and challenging project! Building a functional autonomous car from scratch requires a diverse set of skills, including electrical engineering and coding. Before starting, develop a detailed plan that includes a list of necessary components, their specifications, and where to source them.
 
 ## Assembly
 Attach the motors to the chassis using screws or brackets. Make sure they are evenly spaced and aligned. Attach the wheels to the motors using shafts or couplings. Connect the motor driver board to the motors and battery. Then, connect GPS & compass to the microcontroller. Program the system using a microcontroller such as an Arduino or ESP32. 
