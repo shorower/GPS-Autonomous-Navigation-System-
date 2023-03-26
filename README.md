@@ -23,7 +23,8 @@ If the rover's heading degree and calculated heading degree do not match, then t
 If the rover reaches a waypoint, then the rover will get ready to move to the next waypoint. 
 
 
-		<img width="1383" alt="Screenshot 2023-03-26 at 11 54 47 PM" src="https://user-images.githubusercontent.com/42220653/227797110-01b89830-b1a6-4a84-989e-eab844553f51.png">
+![23 799865,90 44337-2](https://user-images.githubusercontent.com/42220653/227797416-dd9ae150-adac-4698-806a-958d70408cdb.png)
+
 
 Conclusion: 
 In conclusion, this project was a challenging but rewarding experience for the team. Our task was to build a functional GPS autonomous car from scratch, which required us to gather various components and assemble them together, and code the microcontroller.
