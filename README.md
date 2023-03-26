@@ -24,6 +24,10 @@ That sounds like an exciting and challenging project! Building a functional auto
 Attach the motors to the chassis using screws or brackets. Make sure they are evenly spaced and aligned. Attach the wheels to the motors using shafts or couplings. Connect the motor driver board to the motors and battery. Then, connect GPS & compass to the microcontroller. Program the system using a microcontroller such as an Arduino or ESP32. 
 
 
+<img width="897" alt="Screenshot 2023-03-27 at 3 57 39 AM" src="https://user-images.githubusercontent.com/42220653/227807293-3fba0681-18e8-457e-9914-18acbf0a9c04.png">
+
+
+
 ## Coding
 Get all real-time data from the module. Calculate the values and find target heading and target distance. We use some mathematical method to get target heading and target distance for calibrating our rover. 
 
