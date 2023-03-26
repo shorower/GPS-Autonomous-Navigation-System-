@@ -36,6 +36,50 @@ If the rover reaches a waypoint, then the rover will get ready to move to the ne
 
 
 
+Use your locations Magnetic Declination Angle for compass.
+
+For Dhaka Magnetic Declination: -0° 29'. [World magnetic declination](https://www.magnetic-declination.com/)
+
+```bash
+  float declinationAngle = ((-0) + (29 / 60.0)) / (180 / M_PI);
+```
+
+This mathematical term provide distance between two cordinates.
+
+```bash
+  float getDistance( float lat1, float long1, float lat2, float long2 ){
+  float latA = radians(lat1);
+  float longA = radians(long1);
+  float latB = radians(lat2);
+  float longB = radians(long2);
+
+  return ( 1000 * R * acos(  (sin(latA) * sin(latB)) + ( cos(latA) * cos(latB) * cos(longA - longB) ) ) );
+  }
+```
+
+
+This mathematical term provide target heading degrees from current cordinate.
+```bash
+  float getAngle( float lat1, float long1, float lat2, float long2 )  {
+  float dlon = radians(long2 - long1);
+  float cLat = radians(lat1);
+  float tLat = radians(lat2);
+  float a1 = sin(dlon) * cos(tLat);
+  float a2 = sin(cLat) * cos(tLat) * cos(dlon);
+  a2 = cos(cLat) * sin(tLat) - a2;
+  a2 = atan2(a1, a2);
+  if (a2 < 0.0)
+  {
+    a2 += TWO_PI;
+  }
+  int targetHeading = degrees(a2);
+
+  return targetHeading;
+  }
+```
+
+
+
 
 
 
