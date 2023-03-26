@@ -4,7 +4,7 @@
 
 ## Description
 
-That sounds like an exciting and challenging project! Building a functional autonomous car from scratch requires a diverse set of skills, including electrical engineering and coding. Before starting, develop a detailed plan that includes a list of necessary components, their specifications, and where to source them.
+That sounds like an exciting and challenging project! Building a functional waypoint base autonomous navigation car from scratch requires a diverse set of skills, including electrical engineering and coding. Before starting, develop a detailed plan that includes a list of necessary components, their specifications, and where to source them.
 
 
 ![23 799865,90 44337-2](https://user-images.githubusercontent.com/42220653/227798881-aca26ba6-6b61-4f08-8c00-ddadc5f520f1.png)
